@@ -1,0 +1,89 @@
+﻿/**
+* @author Mia Gudelj
+*/
+
+body {
+	font-family: "Times New Roman", Times, serif !important;
+	color: black;
+	/* hintergrundverlauf */
+	background: #eaafc8;
+    background: -webkit-linear-gradient(to right, LightCyan, CornflowerBlue);
+    background: linear-gradient(to right, LightCyan, CornflowerBlue);
+    min-height: 100vh;
+}
+
+h1 {
+	text-align: center !important;
+}
+
+img, video {
+	width: 100% !important;
+}
+
+a {
+	text-decoration: none !important;
+	color: black !important;
+}
+
+li {
+	list-style: none;
+}
+
+/* NAVIGATION: */
+.megamenu {
+    position: static !important;
+}
+
+.megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+.navpic {
+	background: url("img/tablette_blau.jpg") no-repeat !important; 
+	position: center;
+	background-size: cover;
+}
+
+.text-uppercase {
+    letter-spacing: 0.08em;
+}
+
+
+/* CONTAINER*/
+.container	{
+	background-color: white !important;
+	margin: auto !important;
+	padding: 10px 10px 10px 10px;
+	border-radius: 15px;
+}
+
+/* BILDER */
+/*.content{
+	margin: 2vw 2vw 2vw 2vw;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4,
+ .col-5, .col-6, .col-7, .col-8,
+ .col-9, .col-10, .col-11, .col-12 	{
+	padding-right: auto !important;
+	padding-bottom: 1% !important;
+}
+.about .col-4 {
+	margin-top: 2% !important;
+}*/
+/*
+footer {
+	margin: -1%;
+	margin-bottom: -21%;
+	margin-top: 10%;
+	background-color: #383838;
+	font-size: 90%;
+	padding-top: 1%;
+	padding-left: 1%;
+}
+*/
+.font-size-18pt {
+	font-size: 18pt;
+}

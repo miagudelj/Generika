@@ -40,6 +40,10 @@ li {
     width: 100%;
 }
 
+.dropdown-menu a:hover {
+	color: darkblue !important;
+}
+
 .navpic {
 	background: url("img/tablette_blau.jpg") no-repeat !important; 
 	position: center;

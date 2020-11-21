@@ -2,7 +2,7 @@
 * @author Mia Gudelj
 */
 
-body {
+html, body {
 	font-family: "Times New Roman", Times, serif !important;
 	color: black;
 	/* hintergrundverlauf */
@@ -10,6 +10,7 @@ body {
     background: -webkit-linear-gradient(to right, LightCyan, CornflowerBlue);
     background: linear-gradient(to right, LightCyan, CornflowerBlue);
     min-height: 100vh;
+	scroll-behavior: smooth !important;
 }
 
 h1 {
@@ -23,10 +24,6 @@ img, video {
 a {
 	text-decoration: none !important;
 	color: black !important;
-}
-
-li {
-	list-style: none;
 }
 
 /* NAVIGATION: */
@@ -56,12 +53,26 @@ li {
 
 
 /* CONTAINER*/
-.container	{
-	background-color: white !important;
-	margin: auto !important;
-	padding: 10px 10px 10px 10px;
+.container {
+	padding: 3% !important;
+	padding-top: 1% !important;
+	padding-bottom: 1% !important;
+	margin-top: 1%;
+	background-color: white;
 	border-radius: 15px;
+	text-align: justify;
 }
+
+.jumppoints	{
+	width: 30%;
+	padding-top: 1%;
+	padding-bottom: 0.1%;
+	margin-bottom: 3%;
+	background: -webkit-linear-gradient(to right, lightskyblue, CornflowerBlue);
+	background: linear-gradient(to right, lightskyblue, CornflowerBlue);
+	border-radius: 5px;
+}
+
 
 /* BILDER */
 /*.content{

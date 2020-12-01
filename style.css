@@ -11,10 +11,19 @@ html, body {
     background: linear-gradient(to right, LightCyan, CornflowerBlue);
     min-height: 100vh;
 	scroll-behavior: smooth !important;
+
 }
 
 h1 {
 	text-align: center !important;
+	padding-bottom: 3%;
+}
+h3 {
+	padding-top: 1%;
+}
+h6 {
+	font-size: 120% !important;
+	font-weight: bold !important;
 }
 
 img, video {
@@ -24,6 +33,10 @@ img, video {
 a {
 	text-decoration: none !important;
 	color: black !important;
+}
+
+.col-12 {
+	margin-left: -1.5% !important;
 }
 
 /* NAVIGATION: */
@@ -48,11 +61,16 @@ a {
 }
 
 .text-uppercase {
-    letter-spacing: 0.08em;
+    letter-spacing: 0.09em;
+}
+
+.megamenu h6 {
+	font-size: 90% !important;
 }
 
 
 /* CONTAINER*/
+
 .container {
 	padding: 3% !important;
 	padding-top: 1% !important;
@@ -63,14 +81,26 @@ a {
 	text-align: justify;
 }
 
-.jumppoints	{
-	width: 30%;
+.bg {
+	margin-top: 5%;
+	margin-bottom: 1%;
+	padding: 8%;
+	background: url("img/tablette_blau2.jpg") no-repeat; 
+	background-position: center;
+	background-size: 100%;
+}
+
+.jumppoints {
+	color: white;
 	padding-top: 1%;
 	padding-bottom: 0.1%;
 	margin-bottom: 3%;
 	background: -webkit-linear-gradient(to right, lightskyblue, CornflowerBlue);
 	background: linear-gradient(to right, lightskyblue, CornflowerBlue);
 	border-radius: 5px;
+}
+.jumppoints a {
+	color: white !important;
 }
 
 
@@ -85,9 +115,7 @@ a {
 	padding-right: auto !important;
 	padding-bottom: 1% !important;
 }
-.about .col-4 {
-	margin-top: 2% !important;
-}*/
+*/
 /*
 footer {
 	margin: -1%;
@@ -99,6 +127,3 @@ footer {
 	padding-left: 1%;
 }
 */
-.font-size-18pt {
-	font-size: 18pt;
-}

@@ -3,7 +3,7 @@
 */
 
 html, body {
-	font-family: "Times New Roman", Times, serif !important;
+	font-family: Georgia, sans-serif !important;
 	color: black;
 	/* hintergrundverlauf */
 	background: #eaafc8;
@@ -22,7 +22,7 @@ h3 {
 	padding-top: 1%;
 }
 h6 {
-	font-size: 120% !important;
+	font-size: 100% !important;
 	font-weight: bold !important;
 }
 
@@ -35,8 +35,11 @@ a {
 	color: black !important;
 }
 
-.col-12 {
-	margin-left: -1.5% !important;
+td .col {
+	margin-left: -2% !important;
+}
+td img {
+	width: 40% !important;
 }
 
 /* NAVIGATION: */
@@ -64,9 +67,6 @@ a {
     letter-spacing: 0.09em;
 }
 
-.megamenu h6 {
-	font-size: 90% !important;
-}
 
 
 /* CONTAINER*/
@@ -91,19 +91,17 @@ a {
 }
 
 .jumppoints {
-	color: white;
+	color: black;
 	padding-top: 1%;
 	padding-bottom: 0.1%;
 	margin-bottom: 3%;
-	background: -webkit-linear-gradient(to right, lightskyblue, CornflowerBlue);
-	background: linear-gradient(to right, lightskyblue, CornflowerBlue);
+	background: -webkit-linear-gradient(to left, LightCyan, CornflowerBlue);
+	background: linear-gradient(to left, LightCyan, CornflowerBlue);
 	border-radius: 5px;
 }
 .jumppoints a {
-	color: white !important;
+	color: black !important;
 }
-
-
 /* BILDER */
 /*.content{
 	margin: 2vw 2vw 2vw 2vw;

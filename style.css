@@ -38,8 +38,9 @@ a {
 td .col {
 	margin-left: -2% !important;
 }
-td img {
+tbody img {
 	width: 40% !important;
+	margin-top: 3%;
 }
 
 /* NAVIGATION: */

@@ -69,7 +69,6 @@ tbody img {
 }
 
 
-
 /* CONTAINER*/
 
 .container {
@@ -103,26 +102,12 @@ tbody img {
 .jumppoints a {
 	color: black !important;
 }
-/* BILDER */
-/*.content{
-	margin: 2vw 2vw 2vw 2vw;
-}
 
-.col, .col-1, .col-2, .col-3, .col-4,
- .col-5, .col-6, .col-7, .col-8,
- .col-9, .col-10, .col-11, .col-12 	{
-	padding-right: auto !important;
-	padding-bottom: 1% !important;
+.quellen .container img {
+	width: 60% !important;
+	margin-bottom: 5%;
 }
-*/
-/*
 footer {
-	margin: -1%;
-	margin-bottom: -21%;
-	margin-top: 10%;
-	background-color: #383838;
+	margin-top: 10% !important;
 	font-size: 90%;
-	padding-top: 1%;
-	padding-left: 1%;
 }
-*/

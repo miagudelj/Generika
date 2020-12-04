@@ -1,33 +1,45 @@
 ﻿/**
-* @author Mia Gudelj
+* @author Mia Gudelj, Kathrin Bürki, Antoine Cleuvenot
 */
 
 html, body {
 	font-family: Georgia, sans-serif !important;
+	font-size: 1vw;
 	color: black;
-	/* hintergrundverlauf */
-	background: #eaafc8;
+	scroll-behavior: smooth !important;
+	hyphens: auto;
+	box-sizing: content-box;
+	/* BACKGROUND COLOR GRADIENT */
     background: -webkit-linear-gradient(to right, LightCyan, CornflowerBlue);
     background: linear-gradient(to right, LightCyan, CornflowerBlue);
-    min-height: 100vh;
-	scroll-behavior: smooth !important;
 
+}
+/* SET FONT SIZE FOR SMALLER DISPLAYS */
+@media screen and (max-width: 900px) {
+	html, body {
+		font-size: 3vw;
+	}
+
+	.home .col-3 {
+		box-sizing: content-box;
+	}
 }
 
 h1 {
-	text-align: center !important;
-	padding-bottom: 3%;
+	padding-bottom: 1.5vh;
+	text-align: center;
 }
 h3 {
-	padding-top: 1%;
+	padding-top: 1vw;
+	text-align: left;
 }
 h6 {
-	font-size: 100% !important;
 	font-weight: bold !important;
+	text-align: left;
 }
 
 img, video {
-	width: 100% !important;
+	width: 100%;
 }
 
 a {
@@ -35,12 +47,18 @@ a {
 	color: black !important;
 }
 
+footer {
+	margin-top: 2vw;
+	font-size: 0.5vw;
+}
+
+/* TABLE */
 td .col {
-	margin-left: -2% !important;
+	margin-left: -2vw !important;
 }
 tbody img {
-	width: 40% !important;
-	margin-top: 3%;
+	width: 15vw !important;
+	margin-top: 3vw;
 }
 
 /* NAVIGATION: */
@@ -51,7 +69,7 @@ tbody img {
 .megamenu .dropdown-menu {
     background: none;
     border: none;
-    width: 100%;
+    width: 100vw;
 }
 
 .dropdown-menu a:hover {
@@ -65,36 +83,37 @@ tbody img {
 }
 
 .text-uppercase {
-    letter-spacing: 0.09em;
+    letter-spacing: 0.1vw;
+	text-align: left;
 }
 
 
 /* CONTAINER*/
 
 .container {
-	padding: 3% !important;
-	padding-top: 1% !important;
-	padding-bottom: 1% !important;
-	margin-top: 1%;
+	padding: 3vw !important;
+	padding-top: 1vw !important;
+	padding-bottom: 1vw !important;
+	margin-top: 1vw;
 	background-color: white;
-	border-radius: 15px;
+	border-radius: 1vw;
 	text-align: justify;
 }
 
 .bg {
-	margin-top: 5%;
-	margin-bottom: 1%;
-	padding: 8%;
+	margin-top: 5vw;
+	margin-bottom: 1vw;
+	padding: 8vw;
 	background: url("img/tablette_blau2.jpg") no-repeat; 
 	background-position: center;
-	background-size: 100%;
+	background-size: 100vw;
 }
 
 .jumppoints {
 	color: black;
-	padding-top: 1%;
-	padding-bottom: 0.1%;
-	margin-bottom: 3%;
+	padding-top: 1vw;
+	padding-bottom: 0.1vw;
+	margin-bottom: 2vw;
 	background: -webkit-linear-gradient(to left, LightCyan, CornflowerBlue);
 	background: linear-gradient(to left, LightCyan, CornflowerBlue);
 	border-radius: 5px;
@@ -104,10 +123,6 @@ tbody img {
 }
 
 .quellen .container img {
-	width: 60% !important;
-	margin-bottom: 5%;
-}
-footer {
-	margin-top: 10% !important;
-	font-size: 90%;
+	width: 50%;
+	margin-bottom: 1vw;
 }
